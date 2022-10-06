@@ -23,12 +23,29 @@ body {
     flex-direction:column;
     border-radius:2rem;
 }
-
+/* MAIN TEXT STYLES */
+h1 {
+    margin:2rem 0 1rem 0;
+    text-align:center;
+}
+.main-paragraph {
+    text-align:center;
+    padding:0 7rem;
+}
+/* PLAN STYLES */
 .plan {
+    margin: 4rem;
     display:flex;
     align-items:center;
+    justify-content:space-around;
 }
 
 .annual-plan-container {
     display:flex;
+    align-items:center;
 }
+
+.annual-plan-container img {
+    margin-right:1rem;
+}
+
