@@ -8,3 +8,27 @@
 html {
     font-size:62.5%;
 }
+
+
+body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+/* CARD STYLES */
+.card {
+    width:35rem;
+    display:flex;
+    flex-direction:column;
+    border-radius:2rem;
+}
+
+.plan {
+    display:flex;
+    align-items:center;
+}
+
+.annual-plan-container {
+    display:flex;
+}
