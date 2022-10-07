@@ -120,5 +120,11 @@ a:hover {
 }
 /* MOBILE STYLES */
 @media only screen and  (max-width:375) {
+    html {
+        font-size:60%;
+    }
 
+    .card {
+        width:80%;
+    }
 }
