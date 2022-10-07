@@ -84,6 +84,7 @@ a {
 
 a:hover {
     cursor:pointer;
+    text-decoration: none;
 }
 
 /*BUTTON STYLES  */
@@ -116,8 +117,9 @@ a:hover {
 }
 
 .secondary-btn:hover {
-    text-decoration:underline;
+    cursor:pointer;
 }
+
 /* MOBILE STYLES */
 @media only screen and  (max-width:375) {
     html {
